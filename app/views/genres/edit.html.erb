@@ -1,0 +1,10 @@
+<h1>Songs#edit</h1>
+<p>Find me in app/views/songs/edit.html.erb</p>
+
+<h3>Update Genre Form</h3>
+<%= form_for(@genre) do |f| %>
+  <label>Genre Name:</label><br>
+  <%= f.text_field :name %><br>
+
+  <%= f.submit %>
+<% end %>
